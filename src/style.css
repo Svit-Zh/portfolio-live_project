@@ -32,7 +32,16 @@ h2 {
   padding: 15px;
   font-weight: bold;
 }
+h3 {
+  font-weight: bold;
+  margin-top: 2%;
+}
 
+h4 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 36px;
+}
 p {
   border-radius: 4px;
   font-size: 18px;
@@ -98,17 +107,116 @@ p {
   border-bottom: 2px solid var(--primary-color);
 }
 
+.logo {
+  max-width: 100px;
+}
+
+nav {
+  padding: 25px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+}
+
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  color: black;
+}
+
+nav a:hover,
+nav a.active {
+  border-bottom: 2px solid var(--branding-color);
+  color: #000;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 40px 110px;
+  margin-bottom: 30px;
+}
+
 .contact-box p {
   text-align: left;
   margin-bottom: 0;
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover,
+footer .git-link:hover {
+  border-bottom: 2px solid var(--primary-color);
+}
+footer .git-link {
+  text-decoration: none;
+  color: black;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: white;
+  padding: 10px 17px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
 @media (max-width: 767px) {
   h1 {
     font-size: 48px;
   }
   h2 {
     font-size: 18px;
+  }
+
+  .img-home {
+    display: none;
+  }
+
+  nav img {
+    display: none;
+  }
+  nav .container {
+    display: flex;
+    justify-content: right !important;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  nav li {
+    line-height: 25px;
+  }
+
+  footer .contact-box {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 14px;
   }
 
   .contact-box p {
