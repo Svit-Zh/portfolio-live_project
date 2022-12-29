@@ -1,0 +1,137 @@
+:root {
+  --primary-color: #688900;
+  --secondary-color: #cfd700;
+  --branding-color: #690fad;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e7e2f8;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.btn-contact,
+.btn-contact-outline {
+  padding: 0 25px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  box-shadow: var(--box-shadow);
+}
+
+.btn-contact {
+  background: var(--primary-color);
+  color: #fff !important;
+  border: none;
+}
+
+.btn-contact:hover {
+  background: white !important;
+  color: var(--primary-color) !important;
+  border: 1px solid;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-contact-outline {
+  background: white !important;
+  color: var(--primary-color) !important;
+  border: 1px solid;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-contact-outline:hover {
+  background: var(--branding-color) !important;
+  color: #fff !important;
+}
+
+.content-hero h1 {
+  font-size: 54px;
+}
+
+.content-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.content-hero a {
+  color: black;
+  text-decoration: none;
+}
+.content-hero a:hover {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.contact-box p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  .contact-box p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .contact-box .btn-contact {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-hero h1 {
+    margin-top: 2%;
+    font-size: 48px;
+  }
+
+  .content-hero img {
+    margin-top: 5%;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
