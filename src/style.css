@@ -161,11 +161,20 @@ footer .email-link {
 }
 footer .email-link:hover,
 footer .git-link:hover {
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--branding-color);
 }
 footer .git-link {
   text-decoration: none;
   color: black;
+}
+.fa-envelope {
+  margin: 0 10px;
+  color: var(--primary-color);
+  background: white;
+  padding: 17px 17px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
 }
 
 footer .social-links a {
