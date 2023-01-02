@@ -10,6 +10,9 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #e7e2f8;
 }
+.contact_details {
+  color: var(--branding-color);
+}
 
 .hero {
   background: var(--secondary-color);
