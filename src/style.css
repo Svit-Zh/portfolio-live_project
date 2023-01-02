@@ -115,7 +115,7 @@ p {
 }
 
 .content-hero a {
-  color: black;
+  color: var(--branding-color);
   text-decoration: none;
 }
 .content-hero a:hover {
