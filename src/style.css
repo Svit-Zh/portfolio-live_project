@@ -27,6 +27,17 @@ h1 {
   font-size: 96px;
   font-weight: bold;
 }
+.name {
+  color: var(--branding-color);
+}
+.profile-photo {
+  display: block;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 540px;
+  border: 1px solid var(--branding-color);
+  margin: auto;
+}
 
 h2 {
   font-size: 24px;
@@ -194,7 +205,7 @@ footer .social-links a:hover {
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   h2 {
     font-size: 18px;
@@ -218,6 +229,11 @@ footer .social-links a:hover {
 
   nav li {
     line-height: 25px;
+  }
+  .profile-photo {
+    display: block;
+    max-width: 560px;
+    max-height: 400px;
   }
 
   footer .contact-box {
