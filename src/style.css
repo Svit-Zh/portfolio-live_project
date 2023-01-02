@@ -119,7 +119,7 @@ p {
   text-decoration: none;
 }
 .content-hero a:hover {
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--branding-color);
 }
 
 .logo {
