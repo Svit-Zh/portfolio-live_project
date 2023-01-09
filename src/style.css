@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #688900;
-  --secondary-color: #cfd700;
+  --primary-color: #28615b;
+  --secondary-color: #cbbcf6;
   --branding-color: #690fad;
   --button-color: #bb89ec;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #e7e2f8;
+  background-color: #e4f6f6;
 }
 .contact_details {
   color: var(--branding-color);
